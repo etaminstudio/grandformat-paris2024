@@ -13,6 +13,7 @@ body.gfp24_navbar-mobile-open {
   display: block;
   height: $navbar-height;
   left: 0;
+  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,7 +44,24 @@ body.gfp24_navbar-mobile-open {
   }
 
   &-logo {
-    display: none;
+    display: inline-block;
+    height: $navbar-height;
+    padding: 0;
+    position: absolute;
+    transition: opacity 0.2s ease;
+
+    svg {
+      height: 8rem;
+      display: block;
+      fill: $white;
+      position: relative;
+      top: -1rem;
+      width: 11.3rem;
+    }
+
+    &:hover, &:focus {
+      opacity: 0.5;
+    }
   }
 
   &-nav > ul {
@@ -54,7 +72,6 @@ body.gfp24_navbar-mobile-open {
     font-size: 1.8rem;
     font-weight: bold;
     outline: none;
-    text-align: right;
 
     a {
       color: $white;
@@ -129,6 +146,10 @@ body.gfp24_navbar-mobile-open {
       width: 6.5rem;
     }
 
+    &-logo {
+      left: 7rem;
+    }
+
     &-button-menu {
       background: none;
       border: 0;
@@ -193,18 +214,7 @@ body.gfp24_navbar-mobile-open {
       }
 
       &-logo {
-        align-items: center;
-        display: flex;
-        height: 41vw;
-        position: relative;
-        justify-content: center;
-
-        svg {
-          display: block;
-          fill: $darkblue;
-          max-width: 53.6rem;
-          width: 50%;
-        }
+        top: 0;
       }
 
       &-nav {
@@ -220,7 +230,7 @@ body.gfp24_navbar-mobile-open {
 
           &-text:after {
             background-color: $darkblue;
-            bottom: 1rem;
+            bottom: 0.5rem;
             transition: width 0.3s ease;
             width: 0;
           }
@@ -244,33 +254,14 @@ body.gfp24_navbar-mobile-open {
   @include large-and-medium {
     align-items: center;
     display: flex;
-    overflow: hidden;
 
     &-wrapper {
       flex-grow: 1;
     }
 
-    &-logo {
-      display: inline-block;
-      height: $navbar-height;
-      padding: 0;
-      position: absolute;
-
-      svg {
-        height: 8rem;
-        display: block;
-        fill: $white;
-        position: relative;
-        top: -1rem;
-        width: 11.3rem;
-      }
-
-      &:hover, &:focus {
-        opacity: 0.5;
-      }
-    }
-
     &-nav {
+      text-align: right;
+
       a {
         color: $white;
         position: relative;

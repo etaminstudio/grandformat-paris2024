@@ -5,7 +5,7 @@
       "url": "http://www.paris.fr/actualites/grandformat/paris2024",
       "baseUrl": "http://localhost:3000",
       "basePath": "/#",
-      "title": "Rives de Seine",
+      "title": "Paris 2024",
       "navbar": {
         "nef": {
           "href": "http://www.paris.fr",
@@ -25,7 +25,7 @@
           {"href": "/l-heritage", "text": "L'héritage"}
         ],
         "social": {
-          "title": "Suivez Parc Rives de Seine sur",
+          "title": "Suivez Paris 2024 sur",
           "items": [
             {
               "href": "#",
@@ -41,17 +41,12 @@
               "href": "#",
               "name": "Instagram",
               "icon": "instagram"
-            },
-            {
-              "href": "#",
-              "name": "Soundloud",
-              "icon": "soundcloud"
             }
           ]
         }
       },
       "cover": {
-        "title": "Parc Rives de Seine",
+        "title": "Paris 2024",
         "embed": {
           "videoId": "kK4aPa7t89K4nTmcZXK"
         },
@@ -73,7 +68,7 @@
           "Une nouvelle page de l’histoire de ce site d’exception est à écrire à partir d’aujourd’hui, par vous tous..."
         ],
         "social": {
-          "title": "Suivez Parc Rives de Seine sur",
+          "title": "Suivez Paris 2024 sur",
           "items": [
             {
               "href": "https://twitter.com/paris",
@@ -89,11 +84,6 @@
               "href": "https://www.instagram.com/rivesdeseine/",
               "name": "Instagram",
               "icon": "instagram"
-            },
-            {
-              "href": "https://soundcloud.com/rives-de-seine",
-              "name": "Soundloud",
-              "icon": "soundcloud"
             }
           ]
         }
