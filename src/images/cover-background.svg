@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1601 860.3" style="enable-background:new 0 0 1601 860.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1079.2762" y1="574.8575" x2="1079.2762" y2="1502.1804" gradientTransform="matrix(0.9973 7.291349e-02 -6.411244e-02 0.877 -212.6492 -542.4101)">
+	<stop  offset="0" style="stop-color:#DA1F26"/>
+	<stop  offset="1" style="stop-color:#DF3582"/>
+</linearGradient>
+<path class="st0" d="M0,0c274.1,89.1,1059.4,185.7,1601,97v706c0,0-761,177-1601-91V0z"/>
+</svg>

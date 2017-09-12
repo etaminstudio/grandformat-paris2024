@@ -46,7 +46,11 @@
         }
       },
       "cover": {
-        "title": "Paris 2024",
+        "title": "Des jeux utiles",
+        "intro": "Cette fois, c’est fait. Paris et la France accueilleront les Jeux en 2024. 100 ans après les derniers Jeux à Paris, c’est une victoire historique pour notre pays !",
+        "text": [
+          "Paris est fier et heureux d’accueillir le monde et le sport pour les Jeux Olympiques et Paralympiques 2024. Découvrez notre projet, un projet éthique, responsable, durable, porté par les Parisien.nes et les sportifs qui feront de ces Jeux un moment inoubliable pour tou.te.s."
+        ],
         "embed": {
           "videoId": "kK4aPa7t89K4nTmcZXK"
         },
@@ -59,36 +63,8 @@
           }
         }
       },
-      "intro": {
-        "id": "intro",
-        "title": "Se baigner dans la Seine",
-        "text": [
-          "Un voyage au coeur de l’histoire des Rives de Seine et à travers les portraits audio et photo de ceux qui la vivent, à l’heure où le Parc Rives de Seine voit le jour.",
-          "Désormais, 10 hectares en bords de Seine, dédiés à la détente, aux loisirs et aux activités sportives, aménagés en harmonie avec notre environnement naturel et culturel, s’offrent aux Parisiens et aux amoureux de Paris.",
-          "Une nouvelle page de l’histoire de ce site d’exception est à écrire à partir d’aujourd’hui, par vous tous..."
-        ],
-        "social": {
-          "title": "Suivez Paris 2024 sur",
-          "items": [
-            {
-              "href": "https://twitter.com/paris",
-              "name": "Twitter",
-              "icon": "twitter"
-            },
-            {
-              "href": "https://www.facebook.com/paris",
-              "name": "Facebook",
-              "icon": "facebook"
-            },
-            {
-              "href": "https://www.instagram.com/rivesdeseine/",
-              "name": "Instagram",
-              "icon": "instagram"
-            }
-          ]
-        }
-      },
-      "items": []
+      "items": [
+      ]
     }
   },
   "grandformat": {

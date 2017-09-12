@@ -19,6 +19,10 @@ body.gfp24_navbar-mobile-open {
   width: 100%;
   z-index: 101;
 
+  & + * {
+    margin-top: $navbar-height;
+  }
+
   .gfp24_navbar-mobile-open & {
     overflow: hidden;
     height: 100%;
