@@ -1,0 +1,131 @@
+.gfp24_intro {
+  color: $darkblue;
+  position: relative;
+
+  .gfp24_icon {
+    fill: $darkblue;
+  }
+
+  .is-history & {
+    color: $white;
+
+    .gfp24_icon {
+      fill: $white;
+    }
+  }
+
+  &-title {
+  }
+
+  &-text {
+    p {
+      margin: 2rem 0;
+    }
+
+    a {
+      border-bottom: 0.1rem solid;
+      color: inherit;
+      font-weight: 500;
+      text-decoration: none;
+      transition: border 0.2s ease;
+
+      &:hover,
+      &:focus {
+        border-bottom: 0.2rem solid $blue;
+      }
+    }
+  }
+
+  &-social {
+    &-title {
+      margin-top: 4rem;
+    }
+
+    &-items {
+      @include reset-list;
+    }
+
+    &-item {
+      display: inline-block;
+
+      a {
+        display: inline-block;
+
+        .gfp24_icon {
+          transition: fill 0.2s ease;
+        }
+
+        &:hover {
+          .gfp24_icon {fill: $blue;}
+        }
+      }
+    }
+  }
+
+  @include medium-and-small {
+    padding: 5rem;
+
+    &-title {
+      font-size: 11vw;
+      line-height: 12vw;
+      margin: 0 0 1rem;
+    }
+
+    &-text {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+
+    &-social {
+      &-item {
+        & + & {
+          margin-left: 1.5rem;
+        }
+
+        .gfp24_icon {
+          height: 3rem;
+          width: 3rem;
+        }
+      }
+    }
+  }
+
+  @include large {
+    padding: 8.5rem 20rem 15rem;
+
+    > .gfp24_wrapper {
+      overflow: hidden;
+    }
+
+    &-content {
+      float: right;
+      max-width: 51rem;
+    }
+
+    &-title {
+      font-size: 6rem;
+      line-height: 7rem;
+      margin: 0 0 2.2rem;
+    }
+
+    &-text {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      max-width: 45rem;
+    }
+
+    &-social {
+      &-item {
+        & + & {
+          margin-left: 2rem;
+        }
+
+        .gfp24_icon {
+          height: 5rem;
+          width: 5rem;
+        }
+      }
+    }
+
+  }
+}

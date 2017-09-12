@@ -1,0 +1,108 @@
+{
+  "index": {
+    "assetsPath": "",
+    "data": {
+      "url": "http://www.paris.fr/actualites/grandformat/paris2024",
+      "baseUrl": "http://localhost:3000",
+      "basePath": "/#",
+      "title": "Rives de Seine",
+      "navbar": {
+        "nef": {
+          "href": "http://www.paris.fr",
+          "text": "Paris"
+        },
+        "logo": {
+          "href": "/",
+          "text": "Paris 2024"
+        },
+        "menu": {
+          "text": "Menu"
+        },
+        "items": [
+          {"href": "/le-budget", "text": "Le budget"},
+          {"href": "/developpement-durable", "text": "Développement durable"},
+          {"href": "/la-pratique-sportive", "text": "La pratique sportive"},
+          {"href": "/l-heritage", "text": "L'héritage"}
+        ],
+        "social": {
+          "title": "Suivez Parc Rives de Seine sur",
+          "items": [
+            {
+              "href": "#",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "#",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "#",
+              "name": "Instagram",
+              "icon": "instagram"
+            },
+            {
+              "href": "#",
+              "name": "Soundloud",
+              "icon": "soundcloud"
+            }
+          ]
+        }
+      },
+      "cover": {
+        "title": "Parc Rives de Seine",
+        "embed": {
+          "videoId": "kK4aPa7t89K4nTmcZXK"
+        },
+        "background": {
+          "image": "modules/cover/poster.jpg",
+          "video": {
+            "sources": [
+              {"src": "#", "type": "video/mp4"}
+            ]
+          }
+        }
+      },
+      "intro": {
+        "id": "intro",
+        "title": "Se baigner dans la Seine",
+        "text": [
+          "Un voyage au coeur de l’histoire des Rives de Seine et à travers les portraits audio et photo de ceux qui la vivent, à l’heure où le Parc Rives de Seine voit le jour.",
+          "Désormais, 10 hectares en bords de Seine, dédiés à la détente, aux loisirs et aux activités sportives, aménagés en harmonie avec notre environnement naturel et culturel, s’offrent aux Parisiens et aux amoureux de Paris.",
+          "Une nouvelle page de l’histoire de ce site d’exception est à écrire à partir d’aujourd’hui, par vous tous..."
+        ],
+        "social": {
+          "title": "Suivez Parc Rives de Seine sur",
+          "items": [
+            {
+              "href": "https://twitter.com/paris",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "https://www.facebook.com/paris",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "https://www.instagram.com/rivesdeseine/",
+              "name": "Instagram",
+              "icon": "instagram"
+            },
+            {
+              "href": "https://soundcloud.com/rives-de-seine",
+              "name": "Soundloud",
+              "icon": "soundcloud"
+            }
+          ]
+        }
+      },
+      "items": []
+    }
+  },
+  "grandformat": {
+    "assetsPath": "/paris2024/",
+    "layout": false
+  }
+}

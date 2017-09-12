@@ -1,0 +1,158 @@
+.gfp24_cover {
+  align-items: center;
+  background-color: $darkblue;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+
+  &:before {
+    background-color: transparentize($darkblue, 0.6);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.2s ease;
+    z-index: 1;
+  }
+
+  &-title {
+    color: $white;
+    font-size: 8rem;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 53.6rem;
+    position: relative;
+    transition: opacity 0.2s ease;
+    width: 60%;
+    z-index: 2;
+  }
+
+  &-logo {
+    fill: $white;
+    margin-bottom: 1rem;
+    width: 100%;
+
+    > svg {
+      display: block;
+    }
+  }
+
+  &-link {
+    border-bottom: 0.2rem solid transparent;
+    color: $white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: border 0.2s ease;
+
+    &:hover, &:focus {
+      border-bottom-color: $white;
+    }
+  }
+
+  &-background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  &-video {
+    background: center center no-repeat;
+    background-size: cover;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100.5%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.is-open {
+    &:before {
+      background-color: transparentize($darkblue, 0.2);
+    }
+
+    .gfp24_cover-title,
+    > .gfp24_icon {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  @include medium-and-small {
+    height: 70vh;
+
+    &-title {
+      text-align: center;
+    }
+
+    &-embed,
+    &-button-close,
+    > .gfp24_icon {
+      display: none;
+    }
+  }
+
+  @include large {
+    height: 41vw;
+
+    &-title {
+      text-align: right;
+    }
+
+    > .gfp24_icon {
+      bottom: 2rem;
+      fill: $white;
+      height: 6.7rem;
+      left: 50%;
+      position: absolute;
+      transition: opacity 0.2s ease;
+      transform: translateX(-50%);
+      width: 2.7rem;
+      z-index: 1;
+    }
+
+    &-embed {
+      display: none;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+
+    &-button-close {
+      background: transparent;
+      border: 0;
+      opacity: 0;
+      padding: 2rem;
+      pointer-events: none;
+      position: absolute;
+      right: 2rem;
+      top: 2rem;
+      z-index: 2;
+
+      > .gfp24_icon {
+        fill: $white;
+        transform: rotate(45deg);
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+
+    &.is-open {
+      .gfp24_cover-embed {
+        display: block;
+      }
+
+      .gfp24_cover-button-close {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+  }
+}

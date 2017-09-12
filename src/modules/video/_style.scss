@@ -1,0 +1,39 @@
+.gfp24_video {
+  position: relative;
+
+  &-embed {
+    position: relative;
+
+    iframe {
+      border-radius: 0.4rem;
+      box-shadow: none;
+      display: block;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    &:after {
+      // background: $black url('#{$assets-path}../images/loader.svg') center center no-repeat;
+      border-radius: 0.4rem;
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+
+  @include large {
+    padding: 0 20rem;
+
+    &-embed {
+      margin-left: 37rem;
+      max-width: 60rem;
+    }
+  }
+}

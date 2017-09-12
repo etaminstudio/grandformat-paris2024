@@ -1,0 +1,90 @@
+'use strict';
+
+require('velocity-animate');
+
+var GFp24 = window.GFp24 || {};
+
+GFp24.cover = (function(){
+
+  function module(selector){
+    var $el = $(selector),
+      $link,
+      $embed,
+      $iframe,
+      $backgroundVideo;
+
+    function init(){
+      $link = $el.find('.gfp24_cover-link');
+      $embed = $el.find('.gfp24_cover-embed');
+      $iframe = $embed.find('iframe');
+      $backgroundVideo = $el.find('.gfp24_cover-video');
+
+      if (!window.matchMedia("(min-width: 1090px)").matches) return;
+
+      var embedHeight = $el.height() - 200;
+      var embedWidth = embedHeight * 2.38;
+      $embed.css({
+        height: embedHeight,
+        width: embedWidth
+      });
+
+      $el.on('click', onClick);
+      $link.on('click', onClickLink);
+    }
+
+    function onClick(e){
+      e.preventDefault();
+      close();
+    }
+
+    function onClickLink(e){
+      e.preventDefault();
+      if ($el.hasClass('is-open')) return;
+      e.stopPropagation();
+      open();
+    }
+
+    function open() {
+      if ($el.hasClass('is-open')) return;
+      $el.addClass('is-open');
+
+      $backgroundVideo[0].pause();
+      setTimeout(isOpened, 600);
+    }
+
+    function isOpened() {
+      if ($iframe.length) {
+        enableEmbed();
+      }
+    }
+
+    function close() {
+      $el.removeClass('is-open');
+      $backgroundVideo[0].play();
+      disableEmbed();
+    }
+
+    function enableEmbed() {
+      $iframe.attr('src', $iframe.data('original'));
+    }
+
+    function disableEmbed() {
+      $iframe.attr('src', '');
+    }
+
+    init();
+
+    return $el;
+  }
+
+  return function(selector){
+    return $(selector).each(function(){
+      module(this);
+    });
+  };
+
+})();
+
+$(document).ready(function(){
+  GFp24.cover('.gfp24_cover');
+});

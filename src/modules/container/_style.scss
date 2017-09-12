@@ -1,0 +1,12 @@
+@import "../navbar/_variables";
+
+.gfp24_container {
+  background-color: $white;
+  color: $darkblue;
+  overflow: hidden;
+
+  > * {
+    position: relative;
+    z-index: 3;
+  }
+}
