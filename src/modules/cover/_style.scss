@@ -1,19 +1,6 @@
 .gfp24_cover {
   position: relative;
 
-  &:before {
-    background-color: transparentize($black, 0.6);
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    transition: background-color 0.2s ease;
-    z-index: 1;
-  }
-
   &-logo {
     position: relative;
     width: 100%;
@@ -46,6 +33,19 @@
     height: 100%;
     position: absolute;
     width: 100%;
+
+    &:before {
+      background-color: transparentize($black, 0.6);
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      transition: background-color 0.2s ease;
+      z-index: 1;
+    }
   }
 
   &-video {
@@ -60,7 +60,7 @@
   }
 
   &.is-open {
-    &:before {
+    .gfp24_cover-background:before {
       background-color: transparentize($darkblue, 0.2);
     }
 

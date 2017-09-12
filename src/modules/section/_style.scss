@@ -1,0 +1,108 @@
+.gfp24_section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 70rem;
+
+  // modifiers
+  &.background-blue,
+  &.background-red {
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-size: 100vw auto;
+     min-height: 48.33vw;
+  }
+  &.background-blue {
+    background-image: url('#{$assets-path}../images/section-background-blue.svg');
+  }
+  &.background-red {
+    background-image: url('#{$assets-path}../images/section-background-red.svg');
+  }
+  &.green {
+    .gfp24_section-title,
+    .gfp24_section-button {
+      color: $green;
+    }
+  }
+  &.white {
+    .gfp24_section-title,
+    .gfp24_section-button {
+      color: $white;
+    }
+  }
+  &.yellow {
+    .gfp24_section-title,
+    .gfp24_section-button {
+      color: $yellow;
+    }
+  }
+
+  > .gfp24_wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-image ~ &-content {
+    max-width: 66rem;
+  }
+
+  &-title {
+    font-size: 10.5rem;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+    transform: translateX(-0.6rem);
+  }
+
+  &-intro {
+    color: $black;
+    font-size: 3.6rem;
+    line-height: 1.4;
+    margin-bottom: 5rem;
+  }
+
+  &-intro + &-button {
+    margin-top: 3rem;
+  }
+
+  &-text {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  &-button {
+    border: 0.3rem solid currentColor;
+    color: $black;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    min-width: 25rem;
+    padding: 1.3rem 5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &-image {
+    background: center center no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    // left: 50%;
+    // position: absolute;
+    // top: 50%;
+
+    &.oval {
+      height: 57.7rem;
+      // transform: translate(23.5rem, -50%);
+      width: 56.6rem;
+    }
+
+    &.round {
+      border-radius: 50%;
+      height: 36rem;
+      transform: translate(14rem, 0);
+      width: 36rem;
+    }
+  }
+}

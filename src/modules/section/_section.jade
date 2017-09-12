@@ -1,0 +1,16 @@
+mixin section(data)
+  section.gfp24_section(class=data.modifiers)
+    .gfp24_wrapper
+      .gfp24_section-content
+        h2.gfp24_section-title= data.title
+        if data.intro
+          .gfp24_section-intro= data.intro
+        if data.text
+          .gfp24_section-text= data.text
+        if data.button
+          a.gfp24_section-button(href=data.button.href)= data.button.text
+        //- if data.items
+        //-   each item in data.items
+        //-     +#{item.type}(item.data)
+      if data.image
+        .gfp24_section-image(style="background-image: url(" + data.image.url + ");" class=data.image.modifiers)

@@ -19,10 +19,10 @@
           "text": "Menu"
         },
         "items": [
-          {"href": "/le-budget", "text": "Le budget"},
+          {"href": "/budget", "text": "Le budget"},
           {"href": "/developpement-durable", "text": "Développement durable"},
-          {"href": "/la-pratique-sportive", "text": "La pratique sportive"},
-          {"href": "/l-heritage", "text": "L'héritage"}
+          {"href": "/pratique-sportive", "text": "La pratique sportive"},
+          {"href": "/heritage", "text": "L'héritage"}
         ],
         "social": {
           "title": "Suivez Paris 2024 sur",
@@ -64,7 +64,311 @@
         }
       },
       "items": [
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "yellow",
+            "title": "Paris 2024",
+            "intro": "c’est un projet inédit, compact, spectaculaire, qui promet une célébration unique du sport et de l’Olympisme au cœur de Paris.",
+            "text": "C’est aussi un projet responsable, qui a du sens et laissera un héritage fort à l’ensemble des populations. C’est enfin un projet porté par tout un pays, qui a su fédérer toute notre société : les Français, qui ont pris part à la construction du projet via la concertation, les acteurs publics et politiques mobilisés depuis le premier jour, le monde économique engagé à nos côtés, les ONG, les partenaires sociaux dont l’expertise a renforcé notre projet.",
+            "items": [
+              {
+                "type": "video",
+                "data": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "white background-blue",
+            "title": "Le budget",
+            "intro": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens.",
+            "image": {
+              "modifiers": "oval",
+              "url": "images/budget.png"
+            },
+            "button": {
+              "href": "/budget",
+              "text": "En savoir +"
+            }
+          }
+        },
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "green",
+            "title": "Développement durable",
+            "intro": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens.",
+            "image": {
+              "modifiers": "round",
+              "url": "images/developpement-durable.jpg"
+            },
+            "button": {
+              "href": "/developpement-durable",
+              "text": "En savoir +"
+            }
+          }
+        },
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "white background-red",
+            "title": "La pratique sportive",
+            "intro": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens.",
+            "image": {
+              "modifiers": "oval",
+              "url": "images/pratique-sportive.png"
+            },
+            "button": {
+              "href": "/pratique-sportive",
+              "text": "En savoir +"
+            }
+          }
+        },
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "yellow",
+            "title": "L'héritage",
+            "intro": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens.",
+            "image": {
+              "modifiers": "round",
+              "url": "images/heritage.jpg"
+            },
+            "button": {
+              "href": "/heritage",
+              "text": "En savoir +"
+            }
+          }
+        },
+        {
+          "type": "section",
+          "data": {
+            "modifiers": "white",
+            "title": "Le calendrier",
+            "items": [
+              {
+                "type": "gallery",
+                "data": {}
+              }
+            ]
+          }
+        }
       ]
+    }
+  },
+  "budget": {
+    "data": {
+      "url": "http://www.paris.fr/actualites/grandformat/paris2024",
+      "baseUrl": "http://localhost:3000",
+      "basePath": "/#",
+      "title": "Le budget - Paris 2024",
+      "navbar": {
+        "nef": {
+          "href": "http://www.paris.fr",
+          "text": "Paris"
+        },
+        "logo": {
+          "href": "/",
+          "text": "Paris 2024"
+        },
+        "menu": {
+          "text": "Menu"
+        },
+        "items": [
+          {"href": "/budget", "text": "Le budget", "current": true},
+          {"href": "/developpement-durable", "text": "Développement durable"},
+          {"href": "/pratique-sportive", "text": "La pratique sportive"},
+          {"href": "/heritage", "text": "L'héritage"}
+        ],
+        "social": {
+          "title": "Suivez Paris 2024 sur",
+          "items": [
+            {
+              "href": "#",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "#",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "#",
+              "name": "Instagram",
+              "icon": "instagram"
+            }
+          ]
+        }
+      },
+      "intro": {
+        "title": "Le budget",
+        "text": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens",
+        "image": "images/intro-budget.jpg",
+        "height": "33.79vw"
+      }
+    }
+  },
+  "developpement-durable": {
+    "data": {
+      "url": "http://www.paris.fr/actualites/grandformat/paris2024",
+      "baseUrl": "http://localhost:3000",
+      "basePath": "/#",
+      "title": "Développement durable - Paris 2024",
+      "navbar": {
+        "nef": {
+          "href": "http://www.paris.fr",
+          "text": "Paris"
+        },
+        "logo": {
+          "href": "/",
+          "text": "Paris 2024"
+        },
+        "menu": {
+          "text": "Menu"
+        },
+        "items": [
+          {"href": "/budget", "text": "Le budget"},
+          {"href": "/developpement-durable", "text": "Développement durable", "current": true},
+          {"href": "/pratique-sportive", "text": "La pratique sportive"},
+          {"href": "/heritage", "text": "L'héritage"}
+        ],
+        "social": {
+          "title": "Suivez Paris 2024 sur",
+          "items": [
+            {
+              "href": "#",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "#",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "#",
+              "name": "Instagram",
+              "icon": "instagram"
+            }
+          ]
+        }
+      },
+      "intro": {
+        "title": "Le développement durable",
+        "text": "au coeur du projet avec des jeux neutres en carbone et durables",
+        "image": "images/intro-developpement-durable.jpg",
+        "height": "37.55vw"
+      }
+    }
+  },
+  "pratique-sportive": {
+    "data": {
+      "url": "http://www.paris.fr/actualites/grandformat/paris2024",
+      "baseUrl": "http://localhost:3000",
+      "basePath": "/#",
+      "title": "La pratique sportive - Paris 2024",
+      "navbar": {
+        "nef": {
+          "href": "http://www.paris.fr",
+          "text": "Paris"
+        },
+        "logo": {
+          "href": "/",
+          "text": "Paris 2024"
+        },
+        "menu": {
+          "text": "Menu"
+        },
+        "items": [
+          {"href": "/budget", "text": "Le budget"},
+          {"href": "/developpement-durable", "text": "Développement durable"},
+          {"href": "/pratique-sportive", "text": "La pratique sportive", "current": true},
+          {"href": "/heritage", "text": "L'héritage"}
+        ],
+        "social": {
+          "title": "Suivez Paris 2024 sur",
+          "items": [
+            {
+              "href": "#",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "#",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "#",
+              "name": "Instagram",
+              "icon": "instagram"
+            }
+          ]
+        }
+      },
+      "intro": {
+        "title": "La pratique sportive",
+        "text": "encouragée, avec un équipement sportif en accès libre et gratuit à moins de 5 min où que l’on soit à Paris",
+        "image": "images/intro-pratique-sportive.jpg",
+        "height": "39.4vw"
+      }
+    }
+  },
+  "heritage": {
+    "data": {
+      "url": "http://www.paris.fr/actualites/grandformat/paris2024",
+      "baseUrl": "http://localhost:3000",
+      "basePath": "/#",
+      "title": "L'héritage - Paris 2024",
+      "navbar": {
+        "nef": {
+          "href": "http://www.paris.fr",
+          "text": "Paris"
+        },
+        "logo": {
+          "href": "/",
+          "text": "Paris 2024"
+        },
+        "menu": {
+          "text": "Menu"
+        },
+        "items": [
+          {"href": "/budget", "text": "Le budget"},
+          {"href": "/developpement-durable", "text": "Développement durable"},
+          {"href": "/pratique-sportive", "text": "La pratique sportive"},
+          {"href": "/heritage", "text": "L'héritage", "current": true}
+        ],
+        "social": {
+          "title": "Suivez Paris 2024 sur",
+          "items": [
+            {
+              "href": "#",
+              "name": "Twitter",
+              "icon": "twitter"
+            },
+            {
+              "href": "#",
+              "name": "Facebook",
+              "icon": "facebook"
+            },
+            {
+              "href": "#",
+              "name": "Instagram",
+              "icon": "instagram"
+            }
+          ]
+        }
+      },
+      "intro": {
+        "title": "L'héritage",
+        "text": "car chaque euro investi sur les infrastructures des Jeux sera utile aux populations",
+        "image": "images/intro-heritage.jpg",
+        "height": "38.72vw"
+      }
     }
   },
   "grandformat": {
