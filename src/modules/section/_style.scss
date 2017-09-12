@@ -47,6 +47,13 @@
     max-width: 66rem;
   }
 
+  &-title,
+  &-intro {
+    font-family: $handelson;
+    font-weight: normal;
+    line-height: 0.8;
+  }
+
   &-title {
     font-size: 10.5rem;
     line-height: 1;

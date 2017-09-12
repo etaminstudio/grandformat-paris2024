@@ -4,12 +4,20 @@
   color: $black;
   text-align: center;
 
+  &-title,
+  &-text {
+    font-family: $handelson;
+    font-weight: normal;
+  }
+
   &-title {
     color: $white;
+    line-height: 0.8;
     text-transform: uppercase;
   }
 
   &-text {
+    line-height: 1;
     margin: 0 auto;
 
     a {
@@ -31,13 +39,11 @@
 
     &-title {
       font-size: 11vw;
-      line-height: 12vw;
       margin: 0 0 1rem;
     }
 
     &-text {
       font-size: 1.6rem;
-      line-height: 2.2rem;
     }
   }
 
@@ -51,7 +57,6 @@
 
     &-text {
       font-size: 4.5rem;
-      line-height: 1.4;
       max-width: 76rem;
     }
   }
