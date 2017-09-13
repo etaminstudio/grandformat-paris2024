@@ -9,8 +9,9 @@ mixin section(data)
           .gfp24_section-text= data.text
         if data.button
           a.gfp24_section-button(href=data.button.href)= data.button.text
-        //- if data.items
-        //-   each item in data.items
-        //-     +#{item.type}(item.data)
+        if data.gallery
+          +gallery(data.gallery)
+        if data.video
+          +video(data.video)
       if data.image
         .gfp24_section-image(style="background-image: url(" + data.image.url + ");" class=data.image.modifiers)
