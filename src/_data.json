@@ -146,7 +146,7 @@
         {
           "type": "section",
           "data": {
-            "modifiers": "white",
+            "modifiers": "white background-yellow",
             "title": "Le calendrier",
             "items": [
               {
