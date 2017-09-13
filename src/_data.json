@@ -203,6 +203,90 @@
         "text": "sobre, réaliste et sans impact sur les impôts des Parisiens et des Franciliens",
         "image": "images/intro-budget.jpg",
         "height": "33.79vw"
+      },
+      "article": {
+        "modifiers": "blue",
+        "items": [
+          {
+            "modifiers": "with-color",
+            "text": "C’est un fait : plusieurs Jeux olympiques et paralympiques ont conduit à des dépassements budgétaires importants, allant même parfois jusqu’à peser lourdement sur les finances des villes organisatrices."
+          },
+          "C’est pourquoi, à l’été 2014, lorsque le mouvement sportif français a proposé que Paris candidate aux Jeux 2024, la Maire de Paris a posé une condition préalable : que le budget soit à la fois sobre et réaliste et sans impact sur les impôts des Parisiens et des Franciliens.",
+          {
+            "element": "h2",
+            "text": "Un budget de 6,6 Milliards € financé à 75% par le secteur privé et décomposé en deux parties :"
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Le budget dédié à l’organisation des Jeux",
+                "text": "à hauteur de 3,3 Milliards €, entièrement financé par des ressources privées : la contribution du CIO (1,41 Milliards €), la billetterie ou encore les revenus du marketing."
+              },
+              {
+                "title": "Le budget des investissements préalables",
+                "text": "à hauteur de 3,3 Milliards € : la moitié vient là encore de financeurs privés, seule l’autre moitié est financée par les pouvoirs publics, dont 1 Milliard € par l’Etat et 500 millions € par les collectivités, dont 145 millions € par la Ville de Paris."
+              }
+            ]
+          },
+          "Ces dépenses vont s’échelonner sur les 7 prochaines années.",
+          {
+            "element": "h2",
+            "text": "Un projet qui utilise d’abord l’existant."
+          },
+          {
+            "type": "figure",
+            "number": "95%",
+            "caption": "des équipements nécessaires à l’accueil des Jeux 2024 existent déjà ou seront temporaires."
+          },
+          "Les 5% à construire sont par ailleurs des équipements qui continueront à être utiles après les Jeux :",
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "La piscine olympique installée en Seine-Saint-Denis",
+                "text": "sera ouverte au grand public et en particulier aux enfants pour l’apprentissage de la natation."
+              },
+              {
+                "title": "Le village des médias et le village des athlètes",
+                "text": "deviendront des écoquartiers à part entière, avec des logements aux loyers accessibles à tous, des activités et des équipements publics de proximité."
+              }
+            ]
+          },
+          {
+            "element": "h2",
+            "text": "Des retombées économiques importantes en termes, de tourisme, de recettes et d’emploi."
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Les Jeux, ce sont des dépenses mais aussi des recettes. Pour les estimer au plus près de la réalité, une évaluation indépendante a été réalisée par le Centre de Droit et d’Économie du Sport de Limoges (CDES), spécialisé dans l’analyse économique des grands événements sportifs."
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Les retombées des Jeux 2024 pour Paris et sa région",
+                "text": "10,7 Milliards €, d’après une évaluation du CDES."
+              },
+              {
+                "title": "La création de 250 000 emplois",
+                "text": "à l’échelle de l’Île-de-France, d’après une évaluation du CDES."
+              }
+            ]
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Cette évaluation a fait l’objet de plusieurs contre-expertises, qui ont confirmé ces chiffres. Il est intéressant de noter que le CDES avait réalisé le même exercice pour l’Euro 2016 de football et que ses prévisions s’étaient avérées exactes à 95%."
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Les Jeux seront aussi une formidable occasion pour les entreprises françaises de valoriser leurs savoir-faire. Comme pour la COP21 et l’Euro 2016, la Ville de Paris souhaite que les grands groupes, mais aussi les TPE-PME et les startups puissent présenter leurs innovations à cette occasion."
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Mais ce seront également près de 78 000 services civiques qui seront mobilisés pendant 7 ans.<br />Les éventuels bénéfices du COJO seront reversés, contractuellement, à 80% au pays hôte. Les 20% restant seront versés au CIO qui, traditionnellement les laissent au pays hôte.<br />Les jeux Paris 2024 sont donc tout à la fois un formidable levier économique pour notre pays, et un moteur pour le bénévolat et l’engagement citoyen. »"
+          }
+        ]
       }
     }
   },
@@ -256,6 +340,128 @@
         "text": "au coeur du projet avec des jeux neutres en carbone et durables",
         "image": "images/intro-developpement-durable.jpg",
         "height": "37.55vw"
+      },
+      "article": {
+        "modifiers": "green",
+        "items": [
+          "Avec uniquement le Centre aquatique de Saint-Denis et le village olympique à construire puisque 95% des équipements sont soit existants soit temporaires, #Paris2024 prépare la mise en place de l’ensemble des installations à travers une stratégie inédite de réduction des émissions de carbone.",
+          "Il s’agit de proposer :",
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Une réduction de 55% de l’empreinte carbone",
+                "text": "par rapport aux Jeux Olympiques et Paralympiques de Londres en 2012, considérés jusqu’alors comme l’édition des Jeux la plus durable de l’histoire."
+              },
+              {
+                "title": "65% de déchets recyclés à l’horizon 2024"
+              }
+            ]
+          },
+          {
+            "modifiers": "with-color",
+            "text": "Ainsi, #Paris2024 garantira également la neutralité carbone des Jeux avec une stratégie de compensation carbone ambitieuse."
+          },
+          "Pleinement aligné sur l’Accord de Paris pour le climat, signé par près de 200 pays lors de la Conférence de Paris sur le Climat (COP 21) et ratifié en décembre 2015, #Paris2024 a placé le dispositif environnemental et la stratégie en termes de développement durable au cœur de sa candidature.",
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "L’impact des spectateurs ne représentera que 40% de l’impact total",
+                "text": "grâce à une politique de transports propres conduite à partir des innovations développées par la RATP, l’un des partenaires officiels de #Paris2024."
+              },
+              {
+                "title": "La sauvegarde environnementale et les stratégies d'actions climatiques",
+                "text": "sont au cœur du projet Paris 2024, conformément à l'accord signé par presque 200 pays lors de la COP21 en 2016. L'engagement éco-responsable et durable pour les Jeux Olympiques continuera d'imposer Paris comme leader global de lutte contre le changement climatique."
+              }
+            ]
+          },
+          {
+            "modifiers": "with-color",
+            "text": "En 2016, Paris était couronné par la WWF comme modèle pour l'action climatique et remportait le prestigieux C40 Cities Awards pour son innovation en matière de durabilité."
+          },
+          {
+            "element": "h2",
+            "text": "Le village olympique sera un modèle de développement durable grâce aux :"
+          },
+          {
+            "type": "features",
+            "modifiers": "with-dots",
+            "items": [
+              {
+                "title": "Bâtiments éco-conçus à faible teneur en carbone"
+              },
+              {
+                "title": "Utilisation exclusive d'énergies renouvelables"
+              },
+              {
+                "title": "Renforcement d'une politique \"zéro déchet\""
+              }
+            ]
+          },
+          "Une flotte de véhicule zéro émission circulera dans l'ensemble du village tout au long des compétitions. Mais surtout, 85% des athlètes seront logés à moins de 30 minutes des sites de compétition.",
+          {
+            "element": "h2",
+            "text": "Transports"
+          },
+          "L'impact des visiteurs et spectateurs représentera plus de 40% des réductions de l'empreinte carbone grâce à une politique des transports propres qui inclut les innovations de la RATP, sponsor officiel de Paris 2024.",
+          "Voici quelques-unes des mesures qui seront mises en place :",
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Les transports publics ou partagés",
+                "text": "permettront à 100% des voyageurs de se rendre sur les sites, notamment grâce à une flotte d’autobus dédiée de la RATP."
+              },
+              {
+                "title": "Accessibilité en vélo",
+                "text": "par près des trois quarts des spectateurs des sites olympiques et paralympiques."
+              }
+            ]
+          },
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Un réseau ferroviaire performant",
+                "text": "qui relie 85% des villes françaises de plus de 100 000 habitants à Paris en moins de 4 heures tout en reliant la ville à de nombreuses autres grandes capitales."
+              },
+              {
+                "title": "Pour désengorger le centre de Paris",
+                "text": "un tramway desservira les quais haut sur la Rive droite."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "modifiers": "round with-background-color",
+            "number": "100%",
+            "caption": "de l’énergie sera de l’électricité verte"
+          },
+          {
+            "type": "quote",
+            "text": "Grâce à notre concept global de Jeux et à l'utilisation novatrice de transports et d'infrastructures respectueux de l'environnement nous sommes en train de créer une ligne directrice pour l'organisation d'événements responsables et le développement urbain durable que nous espérons partager avec le monde",
+            "caption": "<strong>Tony Estanguet</strong><br />co-président de Paris 2024<br />membre du CIO et triple champion olympique."
+          },
+          {
+            "element": "h2",
+            "text": "La baignade dans la Seine"
+          },
+          "Le processus d’assainissement de la Seine a été lancé il y a plusieurs années et des progrès notables ont déjà été relevés, pour permettre la baignade dans 3 ou 4 sites pour les Jeux.",
+          {
+            "type": "figure",
+            "number": "50 000",
+            "caption": "Parisiens se sont baignés dans les bassins de la Villette cette été."
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Cela illustre parfaitement les efforts entrepris dans ce domaine par la ville."
+          },
+          {
+            "modifiers": "smaller",
+            "text": "Mais le travail continue et Paris sera en mesure d’offrir les meilleures conditions de baignade aux athlètes en 2024, cela constituera un héritage fort des Jeux de Paris 2024"
+          }
+        ]
       }
     }
   },
@@ -309,6 +515,76 @@
         "text": "encouragée, avec un équipement sportif en accès libre et gratuit à moins de 5 min où que l’on soit à Paris",
         "image": "images/intro-pratique-sportive.jpg",
         "height": "39.4vw"
+      },
+      "article": {
+        "modifiers": "red",
+        "items": [
+          "Depuis deux ans, la Ville déploie un programme volontariste pour encourager et favoriser la pratique sportive :",
+          {
+            "type": "features",
+            "modifiers": "with-dots",
+            "items": [
+              {
+                "title": "Plan Nager à Paris"
+              },
+              {
+                "title": "Appel à projets innovants « Paris terrain de Jeux »"
+              },
+              {
+                "title": "Installation d’agrès dans l’espace public"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "modifiers": "vertical",
+            "number": "100 millions d’euros",
+            "caption": "consacrés à la rénovation des équipements de proximité",
+            "text": "afin d’offrir un équipement sportif en accès libre et gratuit à tous les Parisiens à moins de 5 min de chez eux.",
+            "background": "images/figure-background-red.svg",
+            "height": "27.88vw"
+          },
+          {
+            "element": "h2",
+            "text": "Les Jeux et le handicap"
+          },
+          "Avec le doublement du nombre de créneaux dédiés au Handisport et Sports adaptés, les Jeux de Paris vont faire évoluer la question du handicap en France.",
+          {
+            "element": "h2",
+            "text": "Ils permettront de changer durablement le regard de la population sur le handicap, vers une société plus inclusive et solidaire."
+          },
+          "En effet, de nombreuses infrastructures et moyens de transport seront rendus accessibles aux personnes en situation de handicap. Cela insufflera un changement des mentalités grâce notamment à une grande visibilité offerte aux Jeux Paralympiques et à l’héritage qui sera laissé.",
+          {
+            "modifiers": "with-color",
+            "text": "Par exemple, à l’issue des Jeux, le site du Badminton deviendra le Centre National d’Entraînement Parlympique pour la jeunesse."
+          },
+          "Enfin, parce que le spectacle sportif est un formidable moteur d’engagement, notre politique de billetterie est l’illustration de notre vision des Jeux :",
+          {
+            "element": "h2",
+            "text": "nous voulons partager les Jeux avec le plus grand nombre en les rendant accessibles"
+          },
+          {
+            "type": "figure",
+            "modifiers": "round with-background-color",
+            "caption": "Des places pour les Jeux Olympiques à partir de",
+            "number": "15 €",
+            "reverse": true
+          },
+          {
+            "type": "figure",
+            "modifiers": "round with-background-color",
+            "caption": "Des places pour les Jeux Paralympiques à partir de",
+            "number": "10 €",
+            "reverse": true
+          },
+          {
+            "type": "figure",
+            "modifiers": "round with-background-color",
+            "caption": "Sur les 13 millions de billets en vente, plus de 5 millions seront vendus à moins de",
+            "number": "24 €",
+            "reverse": true
+          }
+        ]
       }
     }
   },
@@ -362,6 +638,79 @@
         "text": "car chaque euro investi sur les infrastructures des Jeux sera utile aux populations",
         "image": "images/intro-heritage.jpg",
         "height": "38.72vw"
+      },
+      "article": {
+        "modifiers": "yellow",
+        "items": [
+          {
+            "modifiers": "with-color",
+            "text": "Lorsqu’il a adopté à une très grande majorité le vœu proposé par Anne Hidalgo en faveur de l’engagement de Paris dans une candidature aux Jeux olympiques et paralympiques de 2024, en avril 2015, le Conseil de Paris a souhaité que ce projet soit un puissant levier au service des progrès auxquels les Parisiens aspirent."
+          },
+          "À travers la candidature aux Jeux olympiques et paralympiques, Paris et les autres membres fondateurs de Paris 2024 partagent une grande ambition :",
+          {
+            "type": "features",
+            "modifiers": "with-dots",
+            "items": [
+              {
+                "title": "Bâtir des logements"
+              },
+              {
+                "title": "Améliorer le réseau de transports en commun"
+              },
+              {
+                "title": "Accélérer la transition écologique"
+              },
+              {
+                "title": "Réduire les inégalités territoriales"
+              },
+              {
+                "title": "Contribuer à l’attractivité économique"
+              },
+              {
+                "title": "Améliorer tous les services publics"
+              }
+            ]
+          },
+          "Les Jeux sont un moyen d’aller plus vite et plus loin dans tous les domaines où nos concitoyens souhaitent des avancées concrètes.",
+          {
+            "element": "h2",
+            "text": "Il s’agit donc de construire une candidature qui ressemble à notre société et à notre territoire, en pensant aussi les Jeux comme un formidable moyen d’accélérer la dynamique métropolitaine."
+          },
+          "D’ailleurs, l’héritage des Jeux de Paris 2024 a déjà commencé",
+          {
+            "type": "figure",
+            "modifiers": "vertical",
+            "number": "Plus de 2 millions d’enfants",
+            "caption": "ont déjà été sensibilisés aux valeurs du sport et de l’Olympisme",
+            "text": "et Paris a également lancé de nouveaux dispositifs pédagogiques qui placent le sport au cœur de l’éducation.",
+            "background": "images/figure-background-yellow.svg",
+            "height": "28.48vw"
+          },
+          "L’objectif des jeux olympiques de Paris 2024 est de laisser en héritage les infrastructures qui vont être construites à l’occasion de cet événements au bénéfice des territoires et des populations.",
+          {
+            "type": "figure",
+            "number": "4 500",
+            "caption": "logements seront livrés à l’issu de la construction des villages Olympiques destinés aux Athlètes et aux médias."
+          },
+          "Le centre aquatique implanté en Seine Saint-Denis répond là encore à une longue attente. La Seine Saint-Denis, le département le plus jeune de France, souffre d’un manque d’installations sportives.",
+          {
+            "type": "features",
+            "items": [
+              {
+                "title": "Le département figure au 103e rang",
+                "text": "sur 105 des départements et territoires"
+              },
+              {
+                "title": "16 équipements sportifs pour 10 000 habitants",
+                "text": "quand la moyenne nationale se situe à 50"
+              },
+              {
+                "title": "1 enfant sur 2 entrant en 6e ne sait pas nager"
+              }
+            ]
+          },
+          "Chaque euro investi sur ces infrastructures sera utile aux populations."
+        ]
       }
     }
   },

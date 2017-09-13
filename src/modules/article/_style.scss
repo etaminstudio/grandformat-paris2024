@@ -1,0 +1,64 @@
+.gfp24_article {
+  color: $black;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 10rem;
+
+  > .gfp24_icon {
+    display: block;
+    height: 3.3rem;
+    margin: 8rem auto;
+    width: 3.3rem;
+  }
+
+  &.blue {
+    h2,
+    .with-color {
+      color: $darkblue;
+    }
+    .gfp24_icon {
+      fill: $darkblue;
+    }
+  }
+  &.green {
+    h2,
+    .with-color {
+      color: $darkgreen;
+    }
+    .gfp24_icon {
+      fill: $darkgreen;
+    }
+  }
+  &.red {
+    h2,
+    .with-color {
+      color: $pink;
+    }
+    .gfp24_icon {
+      fill: $pink;
+    }
+  }
+  &.yellow {
+    h2,
+    .with-color {
+      color: $yellow;
+    }
+    .gfp24_icon {
+      fill: $yellow;
+    }
+  }
+
+  .with-color {
+    font-size: 3.1rem;
+    font-weight: bold;
+  }
+
+  .smaller {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+    font-weight: 300;
+  }
+}

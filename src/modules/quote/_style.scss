@@ -1,0 +1,42 @@
+.gfp24_quote {
+  margin: 6rem 0;
+
+  &-text {
+    border-bottom: 0.9rem solid;
+    border-top: 0.9rem solid;
+    font-size: 4rem;
+    font-style: italic;
+    line-height: 5.4rem;
+    margin: 0;
+    padding: 3rem;
+
+    &:before,
+    &:after {
+      content: "\"";
+    }
+  }
+
+  &-caption {
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: right;
+
+    strong {
+      font-size: 2.4rem;
+    }
+  }
+
+  // inherited modifiers
+  .blue &-text {
+    border-color: $blue;
+  }
+  .green &-text {
+    border-color: $darkgreen;
+  }
+  .red &-text {
+    border-color: $pink;
+  }
+  .yellow &-text {
+    border-color: $yellow;
+  }
+}

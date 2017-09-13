@@ -1,0 +1,105 @@
+.gfp24_figure {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+
+  &-number {
+    font-family: $handelson;
+    font-size: 16.7rem;
+    margin-right: 4rem;
+    white-space: nowrap;
+  }
+
+  &-caption {
+    font-size: 3.1rem;
+    font-weight: bold;
+  }
+
+  &-text {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    max-width: 76rem;
+  }
+
+  // modifiers
+  &.round {
+    border-radius: 50%;
+    flex-direction: column;
+    height: 33rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 33rem;
+
+    .gfp24_figure-number {
+      font-size: 13rem;
+      line-height: 11rem;
+    }
+
+    .gfp24_figure-caption {
+      font-size: 2.3rem;
+      margin: 0 3.5rem;
+    }
+  }
+
+  &.vertical {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw auto;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+    .gfp24_figure-number {
+      color: $white;
+      font-size: 11rem;
+      line-height: 10rem;
+    }
+
+  }
+
+  &.with-background-color {
+    .gfp24_figure-number {
+      color: $white;
+    }
+  }
+
+  // inherited modifiers
+  .blue & {
+    &.with-background-color {
+      background-color: $blue;
+    }
+    &-number {
+      color: $blue;
+    }
+  }
+  .green & {
+    &.with-background-color {
+      background-color: $darkgreen;
+    }
+    &-number {
+      color: $darkgreen;
+    }
+  }
+  .red & {
+    &.with-background-color {
+      background-color: $pink;
+    }
+    &-number {
+      color: $pink;
+    }
+  }
+  .yellow & {
+    &.with-background-color {
+      background-color: $yellow;
+    }
+    &-number {
+      color: $yellow;
+    }
+  }
+}
