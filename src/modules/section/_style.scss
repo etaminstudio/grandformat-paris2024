@@ -27,11 +27,27 @@
     .gfp24_section-button {
       color: $green;
     }
+    .gfp24_section-button {
+      &:hover,
+      &:focus {
+        background-color: $green;
+        border-color: $green;
+        color: $white;
+      }
+    }
   }
   &.white {
     .gfp24_section-title,
     .gfp24_section-button {
       color: $white;
+    }
+    .gfp24_section-button {
+      &:hover,
+      &:focus {
+        background-color: $white;
+        border-color: $white;
+        color: $black;
+      }
     }
   }
   &.yellow {
@@ -39,10 +55,18 @@
     .gfp24_section-button {
       color: $yellow;
     }
+    .gfp24_section-button {
+      &:hover,
+      &:focus {
+        background-color: $yellow;
+        border-color: $yellow;
+        color: $white;
+      }
+    }
   }
 
   > .gfp24_wrapper {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     justify-content: space-between;
   }
@@ -102,14 +126,14 @@
 
     &.oval {
       height: 57.7rem;
-      transform: translate(23.5rem, -9rem);
+      transform: translate(20%, -9rem);
       width: 56.6rem;
     }
 
     &.round {
       border-radius: 50%;
       height: 36rem;
-      transform: translate(14rem, 0);
+      transform: translate(14%, 0);
       width: 36rem;
     }
   }
