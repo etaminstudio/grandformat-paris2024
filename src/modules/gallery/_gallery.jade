@@ -1,3 +1,13 @@
 mixin gallery(data)
-  .gfp24_gallery
-    = "GALLERY"
+  .gfp24_gallery(class=data.modifiers)
+    if data.items
+      .gfp24_gallery-items
+        each item in data.items
+          .gfp24_gallery-item
+            img.gfp24_gallery-image(data-flickity-lazyload=item.src alt=item.alt)
+            if item.title || item.text
+              .gfp24_gallery-caption
+                if item.title
+                  .gfp24_gallery-title!= item.title
+                if item.text
+                  .gfp24_gallery-text!= item.text

@@ -146,7 +146,28 @@
             "modifiers": "white background-yellow",
             "title": "Le calendrier",
             "gallery": {
-
+              "items": [
+                {
+                  "src": "images/calendrier-1.jpg",
+                  "title": "Juin 2016",
+                  "text": "Candidature de la Ville de Paris"
+                },
+                {
+                  "src": "images/calendrier-1.jpg",
+                  "title": "Juin 2016",
+                  "text": "Candidature de la Ville de Paris"
+                },
+                {
+                  "src": "images/calendrier-1.jpg",
+                  "title": "Juin 2016",
+                  "text": "Candidature de la Ville de Paris"
+                },
+                {
+                  "src": "images/calendrier-1.jpg",
+                  "title": "Juin 2016",
+                  "text": "Candidature de la Ville de Paris"
+                }
+              ]
             }
           }
         }
