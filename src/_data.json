@@ -55,7 +55,7 @@
           "videoId": "kK4aPa7t89K4nTmcZXK"
         },
         "background": {
-          "image": "modules/cover/poster.jpg",
+          "image": "modules/cover/poster-p24.jpg",
           "video": {
             "sources": [
               {"src": "#", "type": "video/mp4"}
