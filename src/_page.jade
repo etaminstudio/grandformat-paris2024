@@ -7,15 +7,4 @@ include icons/_sprite.svg
   .gfp24_wrapper
     if data.article
       article.gfp24_article(class=data.article.modifiers)
-        each item in data.article.items
-          if item.type
-            +#{item.type}(item)
-          else
-            if item.element
-              #{item.element}(class=item.modifiers)= item.text
-            else
-              p(class=item.modifiers)
-                if item.text
-                  != item.text
-                else
-                  != item
+        +article-items(data.article.items)

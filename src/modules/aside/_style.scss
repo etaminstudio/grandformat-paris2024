@@ -1,0 +1,44 @@
+.gfp24_aside {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100vw auto;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  .gfp24_wrapper > *:first-child {
+    margin-top: 0;
+  }
+
+  // inherited modifiers
+  .blue &,
+  .green &,
+  .red &,
+  .yellow & {
+    color: $white;
+  }
+  .blue & {
+    h2,
+    .with-color {
+      color: $midblue;
+    }
+    .gfp24_icon {
+      fill: $midblue;
+    }
+  }
+  .green & {
+    h2,
+    .with-color {
+      color: $white;
+    }
+    .gfp24_icon {
+      fill: $white;
+    }
+    .gfp24_features-item::after {
+      background-color: $white;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+mixin article-items(items)
+  each item in items
+    if item.type
+      +#{item.type}(item)
+    else
+      if item.element
+        #{item.element}(class=item.modifiers)= item.text
+      else
+        p(class=item.modifiers)
+          if item.text
+            != item.text
+          else
+            != item

@@ -252,25 +252,32 @@
           },
           "Ces dépenses vont s’échelonner sur les 7 prochaines années.",
           {
-            "element": "h2",
-            "text": "Un projet qui utilise d’abord l’existant."
-          },
-          {
-            "type": "figure",
-            "number": "95%",
-            "caption": "des équipements nécessaires à l’accueil des Jeux 2024 existent déjà ou seront temporaires."
-          },
-          "Les 5% à construire sont par ailleurs des équipements qui continueront à être utiles après les Jeux :",
-          {
-            "type": "features",
+            "type": "aside",
+            "background": "images/article-aside-background-blue.svg",
+            "height": "69.94vw",
             "items": [
               {
-                "title": "La piscine olympique installée en Seine-Saint-Denis",
-                "text": "sera ouverte au grand public et en particulier aux enfants pour l’apprentissage de la natation."
+                "element": "h2",
+                "text": "Un projet qui utilise d’abord l’existant."
               },
               {
-                "title": "Le village des médias et le village des athlètes",
-                "text": "deviendront des écoquartiers à part entière, avec des logements aux loyers accessibles à tous, des activités et des équipements publics de proximité."
+                "type": "figure",
+                "number": "95%",
+                "caption": "des équipements nécessaires à l’accueil des Jeux 2024 existent déjà ou seront temporaires."
+              },
+              "Les 5% à construire sont par ailleurs des équipements qui continueront à être utiles après les Jeux :",
+              {
+                "type": "features",
+                "items": [
+                  {
+                    "title": "La piscine olympique installée en Seine-Saint-Denis",
+                    "text": "sera ouverte au grand public et en particulier aux enfants pour l’apprentissage de la natation."
+                  },
+                  {
+                    "title": "Le village des médias et le village des athlètes",
+                    "text": "deviendront des écoquartiers à part entière, avec des logements aux loyers accessibles à tous, des activités et des équipements publics de proximité."
+                  }
+                ]
               }
             ]
           },
@@ -402,25 +409,32 @@
             "text": "En 2016, Paris était couronné par la WWF comme modèle pour l'action climatique et remportait le prestigieux C40 Cities Awards pour son innovation en matière de durabilité."
           },
           {
-            "element": "h2",
-            "text": "Le village olympique sera un modèle de développement durable grâce aux :"
-          },
-          {
-            "type": "features",
-            "modifiers": "with-dots",
+            "type": "aside",
+            "background": "images/article-aside-background-green.svg",
+            "height": "58.35vw",
             "items": [
               {
-                "title": "Bâtiments éco-conçus à faible teneur en carbone"
+                "element": "h2",
+                "text": "Le village olympique sera un modèle de développement durable grâce aux :"
               },
               {
-                "title": "Utilisation exclusive d'énergies renouvelables"
+                "type": "features",
+                "modifiers": "with-dots",
+                "items": [
+                  {
+                    "title": "Bâtiments éco-conçus à faible teneur en carbone"
+                  },
+                  {
+                    "title": "Utilisation exclusive d'énergies renouvelables"
+                  },
+                  {
+                    "title": "Renforcement d'une politique \"zéro déchet\""
+                  }
+                ]
               },
-              {
-                "title": "Renforcement d'une politique \"zéro déchet\""
-              }
+              "Une flotte de véhicule zéro émission circulera dans l'ensemble du village tout au long des compétitions. Mais surtout, 85% des athlètes seront logés à moins de 30 minutes des sites de compétition."
             ]
           },
-          "Une flotte de véhicule zéro émission circulera dans l'ensemble du village tout au long des compétitions. Mais surtout, 85% des athlètes seront logés à moins de 30 minutes des sites de compétition.",
           {
             "element": "h2",
             "text": "Transports"
