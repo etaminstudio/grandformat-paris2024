@@ -4,7 +4,6 @@
   &-logo {
     align-items: center;
     display: flex;
-    height: 50rem;
     justify-content: center;
     position: relative;
     width: 100%;
@@ -31,7 +30,7 @@
   }
 
   &-background {
-    background: top center no-repeat;
+    background: center center no-repeat;
     background-size: cover;
     height: 100%;
     position: absolute;
@@ -129,7 +128,6 @@
 
   @include medium-and-small {
     &-background {
-      height: 80vh;
     }
 
     &-embed,
@@ -140,8 +138,12 @@
   }
 
   @include large {
+    &-logo {
+      height: 35vw;
+    }
+
     &-background {
-      height: 41vw;
+      height: 45vw;
     }
 
     > .gfp24_icon {
