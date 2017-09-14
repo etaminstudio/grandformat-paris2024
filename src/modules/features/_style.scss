@@ -6,23 +6,20 @@
   margin: 6rem 0;
 
   &-item {
+    border-bottom: 0.1rem solid;
     height: 100%;
     padding-bottom: 2rem;
-
-    &,
-    &-title {
-      border-bottom: 0.1rem solid;
-    }
 
     &-title {
       font-size: 3.5rem;
       font-weight: bold;
       margin: 0;
-      padding-bottom: 2rem;
     }
 
     &-text {
+      border-top: 0.1rem solid;
       font-size: 2rem;
+      padding-top: 2rem;
     }
   }
 
@@ -64,7 +61,7 @@
   // inherited modifiers
   .blue &-item {
     &,
-    &-title {
+    &-text {
       border-color: $blue;
     }
     &:after {
@@ -73,7 +70,7 @@
   }
   .green &-item {
     &,
-    &-title {
+    &-text {
       border-color: $darkgreen;
     }
     &:after {
@@ -82,7 +79,7 @@
   }
   .red &-item {
     &,
-    &-title {
+    &-text {
       border-color: $pink;
     }
     &:after {
@@ -91,7 +88,7 @@
   }
   .yellow &-item {
     &,
-    &-title {
+    &-text {
       border-color: $yellow;
     }
     &:after {
