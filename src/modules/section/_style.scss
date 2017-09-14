@@ -2,8 +2,6 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  min-height: 70rem;
-  padding: 7rem 0;
 
   // modifiers
   &.background-blue,
@@ -99,11 +97,6 @@
     color: $black;
     font-size: 3.6rem;
     line-height: 3.4rem;
-    margin-bottom: 5rem;
-  }
-
-  &-intro + &-button {
-    margin-top: 3rem;
   }
 
   &-text {
@@ -112,13 +105,13 @@
   }
 
   &-button {
-    border: 0.3rem solid currentColor;
+    border: 0.2rem solid currentColor;
     color: $black;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    min-width: 25rem;
-    padding: 1.3rem 5rem;
+    min-width: 16rem;
+    padding: 1rem 3rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -129,23 +122,91 @@
     background-size: cover;
     flex-shrink: 0;
 
-    &.oval {
-      height: 57.7rem;
-      transform: translate(20%, -9rem);
-      width: 56.6rem;
-    }
-
     &.round {
       border-radius: 50%;
-      height: 36rem;
-      transform: translate(14%, 0);
-      width: 36rem;
     }
   }
 
-  @include medium-and-small {
-    padding-left: 3rem;
-    padding-right: 3rem;
+  @include small {
+    padding: 0 3rem;
+
+    &.background-blue,
+    &.background-red,
+    &.background-yellow {
+      margin-top: 4rem;
+      padding: 5rem 3rem 9rem;
+    }
+
+    &:not(.background-yellow) > .gfp24_wrapper {
+      flex-direction: column-reverse;
+    }
+
+    &-content {
+      max-width: 100%;
+    }
+
+    &-title {
+      font-size: 5.5rem;
+      line-height: 4.5rem;
+      overflow-wrap: break-word;
+    }
+
+    &-intro {
+      margin-bottom: 2rem;
+    }
+
+    &-image {
+      &.oval {
+        display: none;
+      }
+
+      &.round {
+        height: 15rem;
+        margin-bottom: 2rem;
+        width: 15rem;
+      }
+    }
+  }
+
+  @include large-and-medium {
+    min-height: 70rem;
+
+    &-intro {
+      margin-bottom: 5rem;
+    }
+
+    &-intro + &-button {
+      margin-top: 3rem;
+    }
+
+    &-button {
+      border: 0.3rem solid currentColor;
+      font-size: 2rem;
+      min-width: 25rem;
+      padding: 1.3rem 5rem;
+    }
+
+    &-image {
+      &.oval {
+        height: 57.7rem;
+        transform: translate(20%, -9rem);
+        width: 56.6rem;
+      }
+
+      &.round {
+        height: 36rem;
+        transform: translate(14%, 0);
+        width: 36rem;
+      }
+    }
+  }
+
+  @include large {
+    padding: 7rem 0;
+  }
+
+  @include medium {
+    padding: 7rem 3rem;
 
     &-title {
       font-size: 8rem;

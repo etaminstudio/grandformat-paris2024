@@ -35,8 +35,6 @@
   }
 
   @include medium-and-small {
-    padding: 5rem;
-
     &-title {
       font-size: 10vw;
       margin: 0 0 1rem;
@@ -45,6 +43,14 @@
     &-text {
       font-size: 3rem;
     }
+  }
+
+  @include small {
+    padding: 5rem 5rem 10rem;
+  }
+
+  @include medium {
+    padding: 5rem;
   }
 
   @include large {

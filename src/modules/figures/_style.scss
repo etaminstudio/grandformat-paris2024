@@ -19,11 +19,27 @@
   }
 
   @include medium-and-small {
-    flex-wrap: wrap;
-    padding-bottom: 10rem;
-
     .gfp24_figure:nth-child(2) {
       transform: none;
+    }
+  }
+
+  @include medium {
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+  }
+
+  @include small {
+    padding-bottom: 5rem;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .gfp24_figure {
+      margin: 0 3rem;
+    }
+
+    .gfp24_figure:nth-child(2) {
+      align-self: flex-end;
     }
   }
 }

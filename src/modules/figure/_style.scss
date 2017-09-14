@@ -2,17 +2,16 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 6rem 0;
 
   &-number {
     font-family: $handelson;
-    font-size: 16.7rem;
-    margin-right: 4rem;
-    white-space: nowrap;
+    font-size: 10rem;
+    line-height: 8rem;
   }
 
   &-caption {
-    font-size: 3.1rem;
+    font-size: 2.1rem;
     font-weight: bold;
   }
 
@@ -27,21 +26,8 @@
   &.round {
     border-radius: 50%;
     flex-direction: column;
-    height: 33rem;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    width: 33rem;
-
-    .gfp24_figure-number {
-      font-size: 13rem;
-      line-height: 11rem;
-    }
-
-    .gfp24_figure-caption {
-      font-size: 2.3rem;
-      margin: 0 3.5rem;
-    }
   }
 
   &.vertical {
@@ -103,7 +89,7 @@
   }
 
   @include medium-and-small {
-    .gfp24_article > &:not(.round) {
+    .gfp24_article > &:not(.round):not(.vertical) {
       margin-left: 3rem;
       margin-right: 3rem;
     }
@@ -115,11 +101,6 @@
       margin-right: 0;
       padding: 5rem 3rem;
       position: static;
-
-      .gfp24_figure-number {
-        font-size: 8rem;
-        line-height: 7rem;
-      }
     }
 
     &-ghost {
@@ -127,13 +108,96 @@
     }
   }
 
+  @include small {
+    & + & {
+      margin-top: 0;
+    }
+
+    &:not(.round) {
+      display: block;
+    }
+
+    &-number {
+      margin-bottom: 1rem;
+    }
+
+    &.round {
+      height: 22rem;
+      margin: 6rem auto;
+      width: 22rem;
+
+      .gfp24_figure-number {
+        font-size: 8rem;
+        line-height: 7rem;
+      }
+
+      .gfp24_figure-caption {
+        font-size: 1.6rem;
+        margin: 1rem 3.5rem 0;
+      }
+    }
+
+    &.vertical {
+      .gfp24_figure-number {
+        font-size: 6rem;
+        line-height: 5rem;
+      }
+    }
+  }
+
   @include medium {
     &-number {
       font-size: 14rem;
+      line-height: 12rem;
     }
 
     &-caption {
       font-size: 2.6rem;
+    }
+
+    &.vertical {
+      .gfp24_figure-number {
+        font-size: 8rem;
+        line-height: 7rem;
+      }
+    }
+  }
+
+  @include large {
+    &-number {
+      font-size: 16.7rem;
+      line-height: 14rem;
+    }
+
+    &-caption {
+      font-size: 3.1rem;
+    }
+  }
+
+  @include large-and-medium {
+    &-number {
+      margin-right: 4rem;
+      white-space: nowrap;
+    }
+
+    &-caption {
+      font-size: 3.1rem;
+    }
+
+    &.round {
+      height: 33rem;
+      margin: 6rem auto;
+      width: 33rem;
+
+      .gfp24_figure-number {
+        font-size: 13rem;
+        line-height: 11rem;
+      }
+
+      .gfp24_figure-caption {
+        font-size: 2.3rem;
+        margin: 0 3.5rem;
+      }
     }
   }
 }

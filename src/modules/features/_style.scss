@@ -1,6 +1,5 @@
 .gfp24_features {
   @include reset-list;
-  display: grid;
   margin: 6rem 0;
 
   &-item-title,
@@ -10,7 +9,7 @@
   }
 
   &-item-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin: 0;
   }
@@ -23,26 +22,16 @@
 
   // modifiers
   &.with-lines {
-    grid-auto-flow: column;
-    grid-gap: 3rem 6.6rem;
-    grid-template: repeat(2, auto) / repeat(2, 1fr);
-
-    .gfp24_features-item-title {
-      align-items: flex-end;
-      display: flex;
-    }
   }
 
   &.with-dots {
-    grid-gap: 6.6rem;
-    grid-template-columns: repeat(3, 1fr);
     text-align: center;
 
     .gfp24_features-item-title {
       border-bottom: 0;
       font-size: 2.4rem;
       border-bottom: 0;
-      padding-bottom: 5.5rem;
+      padding-bottom: 4rem;
       position: relative;
 
       &:after {
@@ -50,12 +39,12 @@
         bottom: 0;
         content: "";
         display: block;
-        height: 3.3rem;
+        height: 2.3rem;
         left: 50%;
         margin: 0 auto;
         position: absolute;
         transform: translateX(-50%);
-        width: 3.3rem;
+        width: 2.3rem;
       }
     }
   }
@@ -106,10 +95,60 @@
 
     &.with-lines {
       grid-gap: 3rem;
+
+      .gfp24_features-item-title {
+        margin-bottom: 2rem;
+      }
+
+      .gfp24_features-item-text + .gfp24_features-item-title {
+        margin-top: 6rem;
+      }
     }
 
     &.with-dots {
       grid-gap: 3rem;
+    }
+  }
+
+  @include small {
+    &.with-dots {
+      .gfp24_features-item-title + .gfp24_features-item-title {
+        margin-top: 6rem;
+      }
+    }
+  }
+
+  @include large-and-medium {
+    display: grid;
+
+    &-item-title {
+      font-size: 3.5rem;
+    }
+
+    &.with-lines {
+      grid-auto-flow: column;
+      grid-gap: 3rem 6.6rem;
+      grid-template: repeat(2, auto) / repeat(2, 1fr);
+
+      .gfp24_features-item-title {
+        align-items: flex-end;
+        display: flex;
+        padding-bottom: 5.5rem;
+      }
+    }
+
+    &.with-dots {
+      grid-gap: 6.6rem;
+      grid-template-columns: repeat(3, 1fr);
+
+      .gfp24_features-item-title {
+        padding-bottom: 2rem;
+
+        &:after {
+          height: 3.3rem;
+          width: 3.3rem;
+        }
+      }
     }
   }
 }

@@ -90,10 +90,6 @@ body.gfp24_navbar-mobile-open {
       line-height: $navbar-height;
       padding: 0 2.5rem;
 
-      &.current {
-        display: inline-block;
-      }
-
       &-text:after {
         background: $white;
         bottom: 0;

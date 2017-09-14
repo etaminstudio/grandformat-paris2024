@@ -1,6 +1,6 @@
 .gfp24_article {
   color: $black;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: normal;
   margin-bottom: 10rem;
 
@@ -49,16 +49,16 @@
   }
 
   .with-color {
-    font-size: 3.1rem;
+    font-size: 2.1rem;
     font-weight: bold;
   }
 
   .smaller {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   h2 {
-    font-size: 5rem;
+    font-size: 2.6rem;
     font-weight: 300;
   }
 
@@ -67,6 +67,22 @@
     > h2 {
       margin-left: 3rem;
       margin-right: 3rem;
+    }
+  }
+
+  @include large-and-medium {
+    font-size: 3rem;
+
+    .with-color {
+      font-size: 3.1rem;
+    }
+
+    .smaller {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 5rem;
     }
   }
 }

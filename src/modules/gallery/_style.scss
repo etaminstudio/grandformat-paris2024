@@ -1,6 +1,5 @@
 .gfp24_gallery {
   position: relative;
-  margin: 6rem 0;
 
   &:last-child {
     margin-bottom: 0;
@@ -20,16 +19,12 @@
   }
 
   &-caption {
-    background: linear-gradient(to right, $orange 0%, $lightyellow 100%);
-    bottom: 4.5rem;
     color: $white;
-    left: 0;
     padding: 2rem;
-    position: absolute;
   }
 
   &-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -40,16 +35,52 @@
 
   &-text {
     font-family: $handelson;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .flickity-prev-next-button {
-    background-color: $yellow;
-
     .arrow {fill: $white;}
 
     &:focus {
       box-shadow: 0 0 0 5px $white;
+    }
+  }
+
+  @include small {
+    margin: 4rem 0;
+
+    .flickity-prev-next-button {
+      background-color: transparent;
+
+      &.previous {
+        left: -3.5rem;
+      }
+      &.next {
+        right: -3.5rem;
+      }
+    }
+  }
+
+  @include large-and-medium {
+    margin: 6rem 0;
+
+    &-caption {
+      background: linear-gradient(to right, $orange 0%, $lightyellow 100%);
+      bottom: 4.5rem;
+      left: 0;
+      position: absolute;
+    }
+
+    &-title {
+      font-size: 3rem;
+    }
+
+    &-text {
+      font-size: 5rem;
+    }
+
+    .flickity-prev-next-button {
+      background-color: $yellow;
     }
   }
 
