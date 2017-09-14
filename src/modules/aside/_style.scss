@@ -45,9 +45,12 @@
   }
 
   @include medium-and-small {
+    padding: 8rem 3rem 5rem;
+  }
+
+  @include small {
     height: auto !important;
     min-height: inherit !important;
-    padding: 8rem 3rem 5rem;
     position: static;
 
     &-ghost {

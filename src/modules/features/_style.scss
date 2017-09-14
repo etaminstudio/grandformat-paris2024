@@ -2,6 +2,10 @@
   @include reset-list;
   margin: 6rem 0;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   &-item-title,
   &-item-text {
     border-bottom: 0.1rem solid;
@@ -31,7 +35,6 @@
       border-bottom: 0;
       font-size: 2.4rem;
       border-bottom: 0;
-      padding-bottom: 4rem;
       position: relative;
 
       &:after {
@@ -99,10 +102,6 @@
       .gfp24_features-item-title {
         margin-bottom: 2rem;
       }
-
-      .gfp24_features-item-text + .gfp24_features-item-title {
-        margin-top: 6rem;
-      }
     }
 
     &.with-dots {
@@ -111,10 +110,10 @@
   }
 
   @include small {
-    &.with-dots {
-      .gfp24_features-item-title + .gfp24_features-item-title {
-        margin-top: 6rem;
-      }
+    .gfp24_features-item-title {
+      margin-top: 6rem;
+
+      &:first-child {margin-top: 0;}
     }
   }
 
@@ -133,7 +132,6 @@
       .gfp24_features-item-title {
         align-items: flex-end;
         display: flex;
-        padding-bottom: 5.5rem;
       }
     }
 
@@ -142,12 +140,26 @@
       grid-template-columns: repeat(3, 1fr);
 
       .gfp24_features-item-title {
-        padding-bottom: 2rem;
-
         &:after {
           height: 3.3rem;
           width: 3.3rem;
         }
+      }
+    }
+  }
+
+  @include medium {
+    &.with-dots {
+      .gfp24_features-item-title {
+        padding-bottom: 4rem;
+      }
+    }
+  }
+
+  @include large {
+    &.with-dots {
+      .gfp24_features-item-title {
+        padding-bottom: 6rem;
       }
     }
   }

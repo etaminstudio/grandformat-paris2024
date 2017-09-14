@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1417.3 991.3" style="enable-background:new 0 0 1417.3 991.3;" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6794.6616" y1="654.489" x2="8003.4189" y2="531.0143" gradientTransform="matrix(1.3304 0.1236 -0.205 2.2053 -9012.9863 -1721.4482)">
-	<stop  offset="2.886392e-04" style="stop-color:#27397A"/>
-	<stop  offset="1" style="stop-color:#27397A"/>
-</linearGradient>
-<path style="fill:url(#SVGID_1_);" d="M1509.2,972.1L1509,11.2c0,0-1073.4-3.7-1600,17.9l1.4,957.3C308.1,991.7,1509.2,972.1,1509.2,972.1z"/>
+   <path style="fill:#27397A;" d="M1509.2,972.1L1509,11.2c0,0-1073.4-3.7-1600,17.9l1.4,957.3C308.1,991.7,1509.2,972.1,1509.2,972.1z"/>
 </svg>

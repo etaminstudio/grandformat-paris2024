@@ -255,8 +255,7 @@
           {
             "type": "aside",
             "background": "images/article-aside-background-blue.svg",
-            "height": "69.94vw",
-            "min_height": "92rem",
+            "height": "104rem",
             "items": [
               {
                 "element": "h2",
@@ -417,7 +416,7 @@
           {
             "type": "aside",
             "background": "images/article-aside-background-green.svg",
-            "height": "58.35vw",
+            "height": "77rem",
             "items": [
               {
                 "element": "h2",
