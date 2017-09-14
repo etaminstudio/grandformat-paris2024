@@ -1,0 +1,12 @@
+mixin figure(data)
+  figure.gfp24_figure(class=data.modifiers style=data.background ? "background-image: url(" + data.background + "); height: " + data.height + ";" : '')
+    if !data.reverse
+      .gfp24_figure-number= data.number
+    figcaption.gfp24_figure-caption
+      = data.caption
+      if data.text
+        .gfp24_figure-text= data.text
+    if data.reverse
+      .gfp24_figure-number= data.number
+  if data.height
+    .gfp24_figure-ghost(style="height: " + data.height)

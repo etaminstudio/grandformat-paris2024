@@ -1,0 +1,21 @@
+mixin cover(data)
+  .gfp24_cover
+    if data.background
+      .gfp24_cover-background(style=data.background.image ? "background-image: url(" + data.background.image + ");" : '')
+        //- if data.background.video
+        //-   video.gfp24_cover-video(autoplay=true loop=true muted='muted' poster=data.background.image)
+        //-     each source in data.background.video.sources
+        //-       source&attributes(source)
+    .gfp24_cover-logo
+      include ../../images/logo.svg
+    .gfp24_cover-embed
+      iframe(width="100%" height="100%" scrolling="no" frameborder="no" data-original="//www.dailymotion.com/embed/video/" + data.embed.videoId + "?autoplay=1&ui-logo=0" allowfullscreen)
+    button.gfp24_cover-button-close
+      +icon({icon: 'plus'})
+    .gfp24_cover-content
+      h1.gfp24_cover-title= data.title
+      p.gfp24_cover-intro= data.intro
+      +icon({icon: 'dot'})
+      .gfp24_cover-text
+        each p in data.text
+          p!= p

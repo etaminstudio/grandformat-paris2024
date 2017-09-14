@@ -1,0 +1,26 @@
+mixin navbar(data)
+  .gfp24_navbar
+    a.gfp24_navbar-nef(href=data.nef.href)
+      include ../../images/nef.svg
+      span.hidden-accessibly=data.nef.text
+    button.gfp24_navbar-button-menu.only-on-small#nav-toggle
+      span.gfp24_navbar-button-menu-text= data.menu.text
+    .gfp24_navbar-wrapper
+      a.gfp24_navbar-logo(href=data.logo.href)
+        include ../../images/navbar-logo.svg
+        span.hidden-accessibly=data.logo.text
+      nav.gfp24_navbar-nav(tabindex="-1" role="navigation")
+        ul
+          each item in data.items
+            li.gfp24_navbar-nav-item(class=item.modifiers class=(item.current ? "current" : null))
+              a(href=item.href target=item.target aria-label=item.text)
+                span.gfp24_navbar-nav-item-text= item.text
+      if data.social
+        .gfp24_navbar-social
+          h4.gfp24_navbar-social-title= data.social.title
+          ul.gfp24_navbar-social-items
+            each s in data.social.items
+              li.gfp24_navbar-social-item
+                a(href=s.href target="_blank")
+                  +icon({icon: s.icon})
+                  .hidden-accessibly= s.name
