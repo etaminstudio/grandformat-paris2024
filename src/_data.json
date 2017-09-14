@@ -58,7 +58,7 @@
           "image": "modules/cover/poster-p24.jpg",
           "video": {
             "sources": [
-              {"src": "#", "type": "video/mp4"}
+              {"src": "video/cover.mp4", "type": "video/mp4"}
             ]
           }
         }
