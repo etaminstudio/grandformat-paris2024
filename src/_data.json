@@ -239,6 +239,7 @@
           },
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Le budget dédié à l’organisation des Jeux",
@@ -268,6 +269,7 @@
               "Les 5% à construire sont par ailleurs des équipements qui continueront à être utiles après les Jeux :",
               {
                 "type": "features",
+                "modifiers": "with-lines",
                 "items": [
                   {
                     "title": "La piscine olympique installée en Seine-Saint-Denis",
@@ -291,6 +293,7 @@
           },
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Les retombées des Jeux 2024 pour Paris et sa région",
@@ -376,6 +379,7 @@
           "Il s’agit de proposer :",
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Une réduction de 55% de l’empreinte carbone",
@@ -393,6 +397,7 @@
           "Pleinement aligné sur l’Accord de Paris pour le climat, signé par près de 200 pays lors de la Conférence de Paris sur le Climat (COP 21) et ratifié en décembre 2015, #Paris2024 a placé le dispositif environnemental et la stratégie en termes de développement durable au cœur de sa candidature.",
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "L’impact des spectateurs ne représentera que 40% de l’impact total",
@@ -443,6 +448,7 @@
           "Voici quelques-unes des mesures qui seront mises en place :",
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Les transports publics ou partagés",
@@ -456,6 +462,7 @@
           },
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Un réseau ferroviaire performant",
@@ -730,6 +737,7 @@
           "Le centre aquatique implanté en Seine Saint-Denis répond là encore à une longue attente. La Seine Saint-Denis, le département le plus jeune de France, souffre d’un manque d’installations sportives.",
           {
             "type": "features",
+            "modifiers": "with-lines",
             "items": [
               {
                 "title": "Le département figure au 103e rang",
@@ -738,7 +746,13 @@
               {
                 "title": "16 équipements sportifs pour 10 000 habitants",
                 "text": "quand la moyenne nationale se situe à 50"
-              },
+              }
+            ]
+          },
+          {
+            "type": "features",
+            "modifiers": "with-lines",
+            "items": [
               {
                 "title": "1 enfant sur 2 entrant en 6e ne sait pas nager"
               }
