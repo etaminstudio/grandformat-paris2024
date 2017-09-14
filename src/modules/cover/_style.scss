@@ -40,7 +40,7 @@
       background-color: transparentize($black, 0.6);
       content: "";
       display: block;
-      height: 120%;
+      height: 100%;
       left: 0;
       position: absolute;
       top: 0;
@@ -110,6 +110,10 @@
   }
 
   @include medium-and-small {
+    &-background {
+      height: 70vh;
+    }
+
     &-logo {
       padding-top: 5rem;
     }
@@ -126,10 +130,6 @@
 
   @include small {
     margin-bottom: 5rem;
-
-    &-background {
-      height: 80vh;
-    }
 
     &-content {
       padding: 12rem 3rem 4rem;
@@ -171,10 +171,6 @@
   }
 
   @include medium {
-    &-background {
-      height: 50vh;
-    }
-
     &-content {
       padding: 12rem 3rem 8rem;
     }
