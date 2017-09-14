@@ -587,6 +587,11 @@
           },
           "Avec le doublement du nombre de créneaux dédiés au Handisport et Sports adaptés, les Jeux de Paris vont faire évoluer la question du handicap en France.",
           {
+            "type": "image",
+            "image": "images/pratique-sportive-1.jpg",
+            "height": "53.28vw"
+          },
+          {
             "element": "h2",
             "text": "Ils permettront de changer durablement le regard de la population sur le handicap, vers une société plus inclusive et solidaire."
           },
