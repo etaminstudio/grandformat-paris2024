@@ -585,25 +585,30 @@
             "text": "nous voulons partager les Jeux avec le plus grand nombre en les rendant accessibles"
           },
           {
-            "type": "figure",
-            "modifiers": "round with-background-color",
-            "caption": "Des places pour les Jeux Olympiques à partir de",
-            "number": "15 €",
-            "reverse": true
-          },
-          {
-            "type": "figure",
-            "modifiers": "round with-background-color",
-            "caption": "Des places pour les Jeux Paralympiques à partir de",
-            "number": "10 €",
-            "reverse": true
-          },
-          {
-            "type": "figure",
-            "modifiers": "round with-background-color",
-            "caption": "Sur les 13 millions de billets en vente, plus de 5 millions seront vendus à moins de",
-            "number": "24 €",
-            "reverse": true
+            "type": "figures",
+            "items": [
+              {
+                "type": "figure",
+                "modifiers": "round with-background-color",
+                "caption": "Des places pour les Jeux Olympiques à partir de",
+                "number": "15 €",
+                "reverse": true
+              },
+              {
+                "type": "figure",
+                "modifiers": "round with-background-color",
+                "caption": "Des places pour les Jeux Paralympiques à partir de",
+                "number": "10 €",
+                "reverse": true
+              },
+              {
+                "type": "figure",
+                "modifiers": "round with-background-color",
+                "caption": "Sur les 13 millions de billets en vente, plus de 5 millions seront vendus à moins de",
+                "number": "24 €",
+                "reverse": true
+              }
+            ]
           }
         ]
       }
