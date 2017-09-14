@@ -47,7 +47,7 @@
   &.vertical {
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 100vw auto;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     left: 0;
@@ -99,6 +99,41 @@
     }
     &-number {
       color: $yellow;
+    }
+  }
+
+  @include medium-and-small {
+    .gfp24_article > &:not(.round) {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    &.vertical {
+      height: auto !important;
+      min-height: inherit !important;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5rem 3rem;
+      position: static;
+
+      .gfp24_figure-number {
+        font-size: 8rem;
+        line-height: 7rem;
+      }
+    }
+
+    &-ghost {
+      display: none;
+    }
+  }
+
+  @include medium {
+    &-number {
+      font-size: 14rem;
+    }
+
+    &-caption {
+      font-size: 2.6rem;
     }
   }
 }

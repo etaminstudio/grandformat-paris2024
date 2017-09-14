@@ -1,6 +1,6 @@
 mixin aside(data)
-  aside.gfp24_aside(class=data.modifiers style=data.background ? "background-image: url(" + data.background + "); height: " + data.height + ";" : '')
+  aside.gfp24_aside(class=data.modifiers style=data.background ? "background-image: url(" + data.background + "); height: " + data.height + "; min-height: " + data.min_height + ";" : '')
     .gfp24_wrapper
       +article-items(data.items)
   if data.height
-    .gfp24_aside-ghost(style="height: " + data.height)
+    .gfp24_aside-ghost(style="height: " + data.height + "; min-height: " + data.min_height + ";")

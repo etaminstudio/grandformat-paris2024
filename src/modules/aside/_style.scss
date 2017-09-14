@@ -2,7 +2,7 @@
   align-items: center;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100vw auto;
+  background-size: cover;
   display: flex;
   justify-content: center;
   left: 0;
@@ -19,6 +19,8 @@
   .red &,
   .yellow & {
     color: $white;
+
+    .gfp24_features-item-text {color: transparentize($white, 0.4);}
   }
   .blue & {
     h2,
@@ -39,6 +41,17 @@
     }
     .gfp24_features-item-title:after {
       background-color: $white;
+    }
+  }
+
+  @include medium-and-small {
+    height: auto !important;
+    min-height: inherit !important;
+    padding: 8rem 3rem 5rem;
+    position: static;
+
+    &-ghost {
+      display: none;
     }
   }
 }

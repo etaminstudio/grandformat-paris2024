@@ -256,6 +256,7 @@
             "type": "aside",
             "background": "images/article-aside-background-blue.svg",
             "height": "69.94vw",
+            "min_height": "92rem",
             "items": [
               {
                 "element": "h2",

@@ -11,7 +11,7 @@
   &.background-yellow {
      background-position: top center;
      background-repeat: no-repeat;
-     background-size: 100vw auto;
+     background-size: cover;
      min-height: 53.78vw;
   }
   &.background-blue {
@@ -76,6 +76,10 @@
     max-width: 66rem;
   }
 
+  &-content {
+    flex-grow: 1;
+  }
+
   &-title,
   &-intro {
     font-family: $handelson;
@@ -136,6 +140,22 @@
       height: 36rem;
       transform: translate(14%, 0);
       width: 36rem;
+    }
+  }
+
+  @include medium-and-small {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    &-title {
+      font-size: 8rem;
+      line-height: 7rem;
+    }
+
+    &-image {
+      &.oval {
+        transform: translate(10%, -9rem);
+      }
     }
   }
 }

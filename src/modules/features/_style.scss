@@ -97,4 +97,19 @@
       background-color: $yellow;
     }
   }
+
+  @include medium-and-small {
+    .gfp24_article > & {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    &.with-lines {
+      grid-gap: 3rem;
+    }
+
+    &.with-dots {
+      grid-gap: 3rem;
+    }
+  }
 }

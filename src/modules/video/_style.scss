@@ -10,23 +10,12 @@
       border-radius: 0.4rem;
       box-shadow: none;
       display: block;
+      height: 52vw;
       margin: 0;
       padding: 0;
       width: 100%;
       position: relative;
       z-index: 1;
-    }
-
-    &:after {
-      // background: $black url('#{$assets-path}../images/loader.svg') center center no-repeat;
-      border-radius: 0.4rem;
-      content: "";
-      display: block;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
     }
   }
 

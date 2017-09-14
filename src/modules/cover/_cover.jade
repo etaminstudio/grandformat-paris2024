@@ -10,8 +10,6 @@ mixin cover(data)
       include ../../images/logo.svg
     .gfp24_cover-embed
       iframe(width="100%" height="100%" scrolling="no" frameborder="no" data-original="//www.dailymotion.com/embed/video/" + data.embed.videoId + "?autoplay=1&ui-logo=0" allowfullscreen)
-    button.gfp24_cover-button-close
-      +icon({icon: 'plus'})
     .gfp24_cover-content
       h1.gfp24_cover-title= data.title
       p.gfp24_cover-intro= data.intro

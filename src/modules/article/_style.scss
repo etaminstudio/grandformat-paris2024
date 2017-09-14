@@ -61,4 +61,12 @@
     font-size: 5rem;
     font-weight: 300;
   }
+
+  @include medium-and-small {
+    > p,
+    > h2 {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
 }

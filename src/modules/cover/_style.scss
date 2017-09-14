@@ -61,18 +61,6 @@
     transform: translate(-50%, -50%);
   }
 
-  &.is-open {
-    .gfp24_cover-background:before {
-      background-color: transparentize($darkblue, 0.2);
-    }
-
-    .gfp24_cover-title,
-    > .gfp24_icon {
-      opacity: 0;
-      pointer-events: none;
-    }
-  }
-
   &-content {
     align-items: center;
     background: url('#{$assets-path}../images/cover-background.svg') top center no-repeat;
@@ -128,10 +116,19 @@
 
   @include medium-and-small {
     &-background {
+      height: 50vh;
+    }
+
+    &-logo {
+      padding-top: 5rem;
+    }
+
+    &-content {
+      height: auto;
+      padding: 12rem 3rem 8rem;
     }
 
     &-embed,
-    &-button-close,
     > .gfp24_icon {
       display: none;
     }
@@ -165,36 +162,6 @@
       top: 50%;
       transform: translate(-50%, -50%);
       z-index: 1;
-    }
-
-    &-button-close {
-      background: transparent;
-      border: 0;
-      opacity: 0;
-      padding: 2rem;
-      pointer-events: none;
-      position: absolute;
-      right: 2rem;
-      top: 2rem;
-      z-index: 2;
-
-      > .gfp24_icon {
-        fill: $white;
-        transform: rotate(45deg);
-        height: 3rem;
-        width: 3rem;
-      }
-    }
-
-    &.is-open {
-      .gfp24_cover-embed {
-        display: block;
-      }
-
-      .gfp24_cover-button-close {
-        opacity: 1;
-        pointer-events: auto;
-      }
     }
   }
 }
