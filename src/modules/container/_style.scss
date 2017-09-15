@@ -6,4 +6,8 @@
   > * {
     z-index: 3;
   }
+
+  &:not(.is-home) {
+    padding-top: $navbar-height;
+  }
 }

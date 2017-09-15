@@ -1,8 +1,7 @@
 mixin features(data)
-  ul.gfp24_features(class=data.modifiers)
+  .gfp24_features(class=data.modifiers)
     if data.items
       each item in data.items
-        li.gfp24_features-item
-          h3.gfp24_features-item-title= item.title
-          if item.text
-            p.gfp24_features-item-text= item.text
+        h3.gfp24_features-item-title= item.title
+        if item.text
+          p.gfp24_features-item-text= item.text
