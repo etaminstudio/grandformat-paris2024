@@ -128,29 +128,6 @@
     }
   }
 
-  @include small {
-    margin-bottom: 5rem;
-
-    &-content {
-      padding: 12rem 3rem 4rem;
-
-      > .gfp24_icon {
-        height: 2.2rem;
-        width: 2.2rem;
-      }
-    }
-
-    &-intro {
-      font-size: 2rem;
-      margin-bottom: 3rem;
-    }
-
-    &-text {
-      font-size: 1.8rem;
-      margin-top: 3rem;
-    }
-  }
-
   @include large-and-medium {
     &-intro {
       font-size: 3rem;
@@ -167,6 +144,30 @@
         height: 3.3rem;
         width: 3.3rem;
       }
+    }
+  }
+
+  @include small {
+    margin-bottom: 5rem;
+
+    &-content {
+      padding: 12rem 3rem 4rem;
+      min-height: 85rem;
+
+      > .gfp24_icon {
+        height: 2.2rem;
+        width: 2.2rem;
+      }
+    }
+
+    &-intro {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    &-text {
+      font-size: 1.8rem;
+      margin-top: 3rem;
     }
   }
 
@@ -204,6 +205,12 @@
       top: 50%;
       transform: translate(-50%, -50%);
       z-index: 1;
+    }
+  }
+
+  @media (max-width: 350px) {
+    &-background {
+      height: 100vh;
     }
   }
 }
