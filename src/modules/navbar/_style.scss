@@ -49,18 +49,18 @@ body.gfp24_navbar-mobile-open {
 
   &-logo {
     display: inline-block;
-    height: $navbar-height;
+    height: $navbar-height - 1rem;
     padding: 0;
     position: absolute;
     transition: opacity 0.2s ease;
 
     svg {
-      height: 8rem;
+      height: $navbar-height - 1rem;
       display: block;
       fill: $white;
       position: relative;
-      top: -1rem;
-      width: 11.3rem;
+      top: 0.5rem;
+      width: 10rem;
     }
 
     &:hover, &:focus {
