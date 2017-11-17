@@ -6,9 +6,10 @@ mixin navbar(data)
     button.gfp24_navbar-button-menu.only-on-small#nav-toggle
       span.gfp24_navbar-button-menu-text= data.menu.text
     .gfp24_navbar-wrapper
-      a.gfp24_navbar-logo(href=data.logo.href)
-        include ../../images/navbar-logo.svg
-        span.hidden-accessibly=data.logo.text
+      if data.logo
+        a.gfp24_navbar-logo(href=data.logo.href)
+          include ../../images/navbar-logo.svg
+          span.hidden-accessibly=data.logo.text
       nav.gfp24_navbar-nav(tabindex="-1" role="navigation")
         ul
           each item in data.items
