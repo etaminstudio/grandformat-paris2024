@@ -11,8 +11,10 @@
 
     > svg {
       display: block;
-      height: 29.5rem;
-      width: 18.1rem;
+      // height: 29.5rem;
+      height: 32rem;
+      // width: 18.1rem;
+      width: auto;
     }
   }
 
@@ -87,9 +89,11 @@
   }
 
   &-title {
-    font-family: $handelson;
+    // font-family: $handelson;
+    font-family:'Montserrat', sans-serif;
     font-size: 8rem;
-    font-weight: normal;
+    // font-weight: normal;
+    font-weight: bold;
     line-height: 6rem;
     margin: 0;
     text-transform: uppercase;
@@ -160,6 +164,11 @@
       }
     }
 
+    &-title {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
     &-intro {
       font-size: 2rem;
       margin-bottom: 3rem;
@@ -180,6 +189,10 @@
   @include large {
     &-logo {
       height: 35vw;
+
+      > svg {
+        height: 75%;
+      }
     }
 
     &-background {
