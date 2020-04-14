@@ -12,7 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^14.1.0",
-    "eslint": "^3.19.0",
+    "eslint": "^6.8.0",
     "eslint-config-xo-space": "^0.16.0",
     "flickity": "^2.0.10",
     "flickity-imagesloaded": "^2.0.0",
